@@ -7,23 +7,23 @@ namespace Composer\Autoload;
 class ComposerStaticInit436caf6b8b00014492df25211c576644
 {
     public static $prefixLengthsPsr4 = array (
-        'C' => 
+        'm' => 
         array (
-            'Class\\' => 6,
+            'minhasclasses\\' => 14,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Class\\' => 
+        'minhasclasses\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static $classMap = array (
-        'Class\\Permissao' => __DIR__ . '/../..' . '/src/Permissao.php',
-        'Class\\Usuario' => __DIR__ . '/../..' . '/src/Usuario.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'minhasclasses\\Permissao' => __DIR__ . '/../..' . '/src/Permissao.php',
+        'minhasclasses\\Usuario' => __DIR__ . '/../..' . '/src/Usuario.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

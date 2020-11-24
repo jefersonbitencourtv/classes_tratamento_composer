@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Class\\Permissao' => $baseDir . '/src/Permissao.php',
-    'Class\\Usuario' => $baseDir . '/src/Usuario.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'minhasclasses\\Permissao' => $baseDir . '/src/Permissao.php',
+    'minhasclasses\\Usuario' => $baseDir . '/src/Usuario.php',
 );

@@ -1,9 +1,9 @@
 <?php
-namespace Class;
+namespace minhasclasses;
 class Permissao{
-	private $nivel;
+	protected $nivel;
 
-	private function setNivel($nivel){
+	protected function setNivel($nivel){
 		$this->nivel = $nivel;
 	}
 
