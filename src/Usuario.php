@@ -9,7 +9,6 @@ class Usuario extends Permissao{
 	public function cadastrar(){
 		date_default_timezone_set("Brazil/East");
 		$this->data_cadastro = date('d/m/Y H:i');
-
 	}
 	public function getTelefone(){
 		return $this->telefone;
