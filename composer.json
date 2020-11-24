@@ -1,0 +1,17 @@
+{
+    "name": "jefer/classes_tratamento",
+    "description": "Projeto classes e tratamento",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jeferson Bitencourt",
+            "email": "jeferson267@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Class\\":"src/"
+        }
+    }
+}
